@@ -33,7 +33,7 @@ jobs:
     - name: Install dependencies
      #Using npm ci generally faster than running npm install
       run: |
-       cd MY-APP
+       cd my-app
        npm ci
     - name: Build the app
       run: | 
